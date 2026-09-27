@@ -24,3 +24,10 @@ CNN Model
    :members:
    :undoc-members:
 
+HIM Actor Model
+---------------
+
+.. automodule:: rsl_rl.models.him_actor_model
+   :members:
+   :undoc-members:
+

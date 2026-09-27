@@ -16,3 +16,10 @@ Distillation
    :members:
    :undoc-members:
 
+HIM PPO
+-------
+
+.. automodule:: rsl_rl.algorithms.him_ppo
+   :members:
+   :undoc-members:
+

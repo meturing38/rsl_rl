@@ -7,6 +7,7 @@
 
 from .cnn import CNN
 from .distribution import Distribution, GaussianDistribution, HeteroscedasticGaussianDistribution
+from .him import AttentionEncoder, HIMEstimator, HistoryEncoder, SoftMOE, sinkhorn
 from .mlp import MLP
 from .normalization import EmpiricalDiscountedVariationNormalization, EmpiricalNormalization
 from .rnn import RNN, HiddenState
@@ -19,6 +20,11 @@ __all__ = [
     "EmpiricalDiscountedVariationNormalization",
     "EmpiricalNormalization",
     "GaussianDistribution",
+    "HIMEstimator",
     "HeteroscedasticGaussianDistribution",
     "HiddenState",
+    "HistoryEncoder",
+    "AttentionEncoder",
+    "SoftMOE",
+    "sinkhorn",
 ]
